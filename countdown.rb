@@ -2,13 +2,10 @@
 
 def countdown(number)
   
-  if number > 0
+  while number > 0 do
     puts "#{number} SECOND(S)!"
     number -= 1
   end
-    
-#  elsif nummber < 0
-#    return nil
     
   return "HAPPY NEW YEAR!"
 end
